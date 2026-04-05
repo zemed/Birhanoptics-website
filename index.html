@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Birhan Optics</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header>
+  <nav class="navbar">
+    <h2 class="logo">Birhan Optics</h2>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    <ul id="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero">
+  <h1>Clear Vision & Modern Style</h1>
+  <p>Your trusted optical workshop in Wolkite</p>
+  <button>Book Appointment</button>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products" class="section">
+  <h2>Our Eyeglasses</h2>
+
+  <div class="cards">
+    <div class="card">Spectacles</div>
+    <div class="card">Blue Cut Lenses</div>
+    <div class="card">Sunglasses</div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section light">
+  <h2>Our Services</h2>
+  <p>Eye Testing • Frame Repair • Lens Fitting</p>
+</section>
+<section class="section light">
+<h2>Book Eye Glass Service Appointment</h2>
+
+<form id="bookingForm">
+<input type="text" placeholder="Full Name" id="name" required>
+<input type="tel" placeholder="Phone Number" id="phone" required>
+
+<select id="service">
+<option>High Power lens</option>
+<option>Blue Cut Lens</option>
+<option>Frame Repair</option>
+ <option>Frame Choice</option>
+  <option>ARC Lens</option>
+  <option> Sphere Lens </option>
+  <option>cylinder lens </option>
+</select>
+
+<input type="date" id="date" required>
+<input type="time" id="time" required>
+
+<textarea id="message" placeholder="Message"></textarea>
+
+<button type="submit">Book Appointment</button>
+</form>
+
+<p id="status"></p>
+</section>
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <h2>Contact Us</h2>
+  <p>Wolkite, Central Ethiopia</p>
+  <p>📞 0910833858 / 0947708628 / 0946556304</p>
+</section>
+
+<footer>
+  <p>© 2026 Birhan Optical Workshop</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
