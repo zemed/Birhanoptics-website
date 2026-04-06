@@ -37,5 +37,5 @@ await fetch("PASTE_YOUR_GOOGLE_SCRIPT_URL_HERE", {
 });
 
 document.getElementById("status").innerText =
-"✅ Appointment Booked Successfully!";
+"✅ Appointment Booked Successfully!";alert("✅ Appointment received! We will contact you soon.");
 });
