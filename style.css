@@ -23,7 +23,19 @@
   display: flex;
   gap: 20px;
 }
+.header{
+display:flex;
+align-items:center;
+gap:15px;
+padding:15px;
+background:#0a1f44;
+color:white;
+}
 
+.logo{
+width:60px;
+height:auto;
+}
 .navbar a {
   color: white;
   text-decoration: none;
